@@ -18,4 +18,4 @@ function peringati() {
       index = (index + 1) % gambarArray.length;
     }, 5000); 
   }, 100);
-}
+                       }
