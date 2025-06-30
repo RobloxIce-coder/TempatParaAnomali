@@ -74,18 +74,52 @@ video {
 
 @keyframes geser {
   0% {
-    transform: translateX(0);
+    transform: translate(0deg);
+    transform: scale(-200);
+  }
+  10% {
+    transform: rotateZ(30deg);
+  }
+  20% {
+    transform: rotateZ(60deg);
+  }
+  30% {
+    transform: rotateZ(90deg) ;
+  }
+  40% {
+    transform: rotateZ(120deg);
+    transform: translate(100px);
   }
   50% {
-    transform: translateX(200px);
+    transform: rotateZ(150deg);
+  }
+  60% {
+    tranform: rotateZ(180deg)
+  }
+  70% {
+    transform: rotateZ(210deg);
+  }
+  80% {
+    tranform: rotateZ(240deg);
+    transform: translate(-200px);
+  }
+  90% {
+    tranform: rotateZ(270deg)
+  }
+  93% {
+    tranform: rotateZ(300deg);
+  }
+  95% {
+    tranform: rotateZ(330deg);
   }
   100% {
-    transform: translateX(-200px);
+    transform: rotateZ(360deg);
+    transform: scale(200);
   }
 }
 
 .geser {
-  animation: geser 4s ease-in-out infinite;
+  animation: geser 5s ease-in-out 0s infinite paused;
 }
 #teks-berjalan {
   position: relative;
@@ -95,7 +129,7 @@ video {
 }
 
 #teks-berjalan:before {
-  content: "Selamat datang di website geda-gedi-gedao anda telah memasuki kawasan meme naget super anomali wajah mewinng :D sigma korblox, dan ada robuxnya tak terbatas!!!";
+  content: "Selamat datang di tempat anomali wajah mewing super sigma, slebewwwww😎... yang ada hantunya yang suka berkeliaran, ih takotnyeeeeeeeeee!!!!!!!!!.....           Tempat ini adalah tempat para anomali berkumpul, Ih seremnyaaa....";
   position: absolute;
   white-space: nowrap;
   animation: marque 20s ease-in-out infinite;
@@ -114,6 +148,4 @@ video {
 #teks-berjalan.ubah:before {
   content: "Website ini telah di hack oleh wajah super sigma yaitu raja sigma geda-gedi :D";
   color: white;
-}
-
-
+    }
